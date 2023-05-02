@@ -1,6 +1,6 @@
 # Otis
 
-Otis is a learning app that currently focuses on Latin, but will be customizable in the future.
+Otis is a learning app I've built for myself that currently focuses on Latin, but will be customizable in the future.
 Among the features are not only flash cards and other vocabulary learning modes, 
 but also explanations of various grammatical constructs used in Latin, as well as the grammar forms themselves.
 These can also be trained in another learning mode.
