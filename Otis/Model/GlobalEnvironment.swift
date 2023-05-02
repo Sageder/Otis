@@ -9,7 +9,6 @@ class GlobalEnvironment: ObservableObject {
     init() {
         courses = [
             CourseModal(name: "Latein", vocabulary: latinVocabulary(), grammarRules: latinGrammarRules(), grammarForms: latinGrammarForms()),
-            CourseModal(name: "English", vocabulary: englishVocabulary(), grammarRules: englishGrammarRules(), grammarForms: englishGrammarForms())
         ]
         
         currentCourse = 0

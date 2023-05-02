@@ -18,9 +18,6 @@
 		086009C72A013C77006485F7 /* LatinVocabulary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086009C42A013C77006485F7 /* LatinVocabulary.swift */; };
 		086009C82A013C77006485F7 /* LatinGrammarForms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086009C52A013C77006485F7 /* LatinGrammarForms.swift */; };
 		086009C92A013C77006485F7 /* LatinGrammarRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086009C62A013C77006485F7 /* LatinGrammarRules.swift */; };
-		086009CE2A013C87006485F7 /* EnglishVocabulary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086009CB2A013C87006485F7 /* EnglishVocabulary.swift */; };
-		086009CF2A013C87006485F7 /* EnglishGrammarForms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086009CC2A013C87006485F7 /* EnglishGrammarForms.swift */; };
-		086009D02A013C87006485F7 /* EnglishGrammarRules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086009CD2A013C87006485F7 /* EnglishGrammarRules.swift */; };
 		086009D62A013CCA006485F7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086009D22A013CCA006485F7 /* ContentView.swift */; };
 		086009D72A013CCA006485F7 /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086009D32A013CCA006485F7 /* SplashScreen.swift */; };
 		086009D82A013CCA006485F7 /* IntroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086009D42A013CCA006485F7 /* IntroView.swift */; };
@@ -56,9 +53,6 @@
 		086009C42A013C77006485F7 /* LatinVocabulary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatinVocabulary.swift; sourceTree = "<group>"; };
 		086009C52A013C77006485F7 /* LatinGrammarForms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatinGrammarForms.swift; sourceTree = "<group>"; };
 		086009C62A013C77006485F7 /* LatinGrammarRules.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LatinGrammarRules.swift; sourceTree = "<group>"; };
-		086009CB2A013C87006485F7 /* EnglishVocabulary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnglishVocabulary.swift; sourceTree = "<group>"; };
-		086009CC2A013C87006485F7 /* EnglishGrammarForms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnglishGrammarForms.swift; sourceTree = "<group>"; };
-		086009CD2A013C87006485F7 /* EnglishGrammarRules.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnglishGrammarRules.swift; sourceTree = "<group>"; };
 		086009D22A013CCA006485F7 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		086009D32A013CCA006485F7 /* SplashScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		086009D42A013CCA006485F7 /* IntroView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroView.swift; sourceTree = "<group>"; };
@@ -160,7 +154,6 @@
 		086009C22A013C68006485F7 /* Courses */ = {
 			isa = PBXGroup;
 			children = (
-				086009CA2A013C7D006485F7 /* Beta English */,
 				086009C32A013C6D006485F7 /* Latin */,
 			);
 			path = Courses;
@@ -174,16 +167,6 @@
 				086009C42A013C77006485F7 /* LatinVocabulary.swift */,
 			);
 			path = Latin;
-			sourceTree = "<group>";
-		};
-		086009CA2A013C7D006485F7 /* Beta English */ = {
-			isa = PBXGroup;
-			children = (
-				086009CC2A013C87006485F7 /* EnglishGrammarForms.swift */,
-				086009CD2A013C87006485F7 /* EnglishGrammarRules.swift */,
-				086009CB2A013C87006485F7 /* EnglishVocabulary.swift */,
-			);
-			path = "Beta English";
 			sourceTree = "<group>";
 		};
 		086009D12A013CBE006485F7 /* View */ = {
@@ -309,7 +292,6 @@
 				086009D72A013CCA006485F7 /* SplashScreen.swift in Sources */,
 				086009F92A013CF2006485F7 /* StudyAnswerView.swift in Sources */,
 				086009D82A013CCA006485F7 /* IntroView.swift in Sources */,
-				086009CF2A013C87006485F7 /* EnglishGrammarForms.swift in Sources */,
 				086009C72A013C77006485F7 /* LatinVocabulary.swift in Sources */,
 				086009D62A013CCA006485F7 /* ContentView.swift in Sources */,
 				086009F32A013CE9006485F7 /* GrammarFormView.swift in Sources */,
@@ -318,7 +300,6 @@
 				086009C02A013C59006485F7 /* GlobalEnvironment.swift in Sources */,
 				086009C92A013C77006485F7 /* LatinGrammarRules.swift in Sources */,
 				086009EF2A013CE9006485F7 /* GrammarRuleView.swift in Sources */,
-				086009D02A013C87006485F7 /* EnglishGrammarRules.swift in Sources */,
 				086009E22A013CD6006485F7 /* PopupView.swift in Sources */,
 				086009BF2A013C59006485F7 /* SettingsModel.swift in Sources */,
 				086009E52A013CD6006485F7 /* TagView.swift in Sources */,
@@ -336,7 +317,6 @@
 				086009F22A013CE9006485F7 /* SearchView.swift in Sources */,
 				086009E62A013CD6006485F7 /* Shapes.swift in Sources */,
 				086009A72A013BE7006485F7 /* OtisApp.swift in Sources */,
-				086009CE2A013C87006485F7 /* EnglishVocabulary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
