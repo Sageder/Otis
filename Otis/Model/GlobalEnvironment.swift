@@ -8,15 +8,16 @@ class GlobalEnvironment: ObservableObject {
     
     init() {
         courses = [
-            CourseModal(name: "Latein", vocabulary: latinVocabulary(), grammarRules: latinGrammarRules(), grammarForms: latinGrammarForms()),
+            CourseModal(name: "Latein",
+                        vocabulary: latinVocabulary(),
+                        grammarRules: latinGrammarRules(),
+                        grammarForms: latinGrammarForms()),
         ]
         
         currentCourse = 0
         
         settings = SettingsModel()
         data = DataModel()
-        
-        printCurrentCourseToConsole()
     }
     
     func GetCourse()->CourseModal{
@@ -106,23 +107,5 @@ class GlobalEnvironment: ObservableObject {
         }
         
         return str
-    }
-    
-    func printCurrentCourseToConsole() {
-        for learnset in courses[currentCourse].vocabulary {
-            print(learnset.id)
-            print(learnset.title)
-            
-            for vocable in learnset.vocabulary {
-                var vocAndExtra = vocable.vocable
-                
-                if vocable.extra != "" {
-                    vocAndExtra += ", "
-                    vocAndExtra += vocable.extra
-                }
-                
-                print("\(vocable.translation)||\(vocAndExtra)")
-            }
-        }
     }
 }
