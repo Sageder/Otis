@@ -27,6 +27,7 @@ To use Chipster, you need a Mac with Xcode installed. Follow these steps to get 
   - about 800 Latin words with German translations
   - all major grammar forms (e.g. A-Declination, etc.)
   - some key grammar structures
+- Dark mode
 - Expandability (See 👇)
 
 ## Add a custom language
@@ -63,7 +64,7 @@ func YOUR_COURSE_GrammarForms () -> [GrammarFormModel] {
 ```
   
 ## Screenshots
-<img width="350" alt="Otis on iPhone" src="https://user-images.githubusercontent.com/77528379/235752005-99187bca-bf58-4095-8936-a7bb6981a563.png">
+<img width="350" alt="Otis on iPhone" src="https://user-images.githubusercontent.com/77528379/235753846-46b18d9f-b42a-4d59-b3f7-726ff2e4e549.png">
 <img width="962" alt="Otis - Mac" src="https://user-images.githubusercontent.com/77528379/235750226-92efb021-4440-43f8-a879-354754938f7c.png">
 <img width="962" alt="Otis - Flash Cards" src="https://user-images.githubusercontent.com/77528379/235750637-3f0a0093-1b09-4467-9b1e-d5ef195c70e7.png">
 <img width="962" alt="Otis - Multiple Choice" src="https://user-images.githubusercontent.com/77528379/235750822-f8d0aad6-a84c-4df9-b589-28e7b64c0fed.png">
