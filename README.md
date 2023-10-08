@@ -9,7 +9,7 @@ These can also be trained in another learning mode.
 
 ## Setup
 
-To use Chipster, you need a Mac with Xcode installed. Follow these steps to get started:
+To use Otis, you need a Mac with Xcode installed. Follow these steps to get started:
 1. Clone this repository to your local machine.
 3. Open the project in Xcode.
 4. Run the project on your Mac.
